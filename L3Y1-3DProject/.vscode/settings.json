@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CarController-main.sln"
+    "dotnet.defaultSolution": "L3Y1-3DProject.sln"
 }
