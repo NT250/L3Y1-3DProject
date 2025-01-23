@@ -33,6 +33,11 @@ public class GameManager : MonoBehaviour
     {
         timertext.text = timer.ToString("F2");
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
         if (timer <= 0)
         {
             Debug.Log("Out of time");
