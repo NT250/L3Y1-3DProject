@@ -44,7 +44,7 @@ public class PickUp : MonoBehaviour
 
     void OnTriggerEnter(Collider other) 
     {
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("PickUp") && pickupPoint.transform.childCount == 0)
         {
             inRange = true;
             lastPickup = other.gameObject;
