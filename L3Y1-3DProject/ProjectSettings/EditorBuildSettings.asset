@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Playground.unity
     guid: be4fb36babd47df499b2c93f6c99c47c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Track.unity
     guid: d2a9db2f2a41383409430dd2c5e32afe
   m_configObjects: {}

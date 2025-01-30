@@ -35,6 +35,10 @@ public class CarController : MonoBehaviour
     private float emissionRate;
     private GameObject particleHolder;
 
+    [Header("Audio")]
+    public AudioSource engineSound;
+    public AudioSource hornsound;
+
 
     void Start()
     {
@@ -53,6 +57,12 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.H))
+        {
+            hornsound.Play();
+        }
+
+        engineSound.pitch = 1 + (speedInput / 10000);
 
         speedInput = 0f;
         if (Input.GetAxis("Vertical") > 0) 

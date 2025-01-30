@@ -27,5 +27,9 @@ public class PlayerContainer : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+    if (other.gameObject.CompareTag("BackWarp2"))
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
    }
 }

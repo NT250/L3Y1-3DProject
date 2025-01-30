@@ -8,6 +8,7 @@ TagManager:
   - Checkpoint
   - BackWarp
   - PickUp
+  - BackWarp2
   layers:
   - Default
   - TransparentFX
