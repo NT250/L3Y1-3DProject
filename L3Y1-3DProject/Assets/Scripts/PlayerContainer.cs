@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerContainer : MonoBehaviour
 {
     public Vector3 lastPos;
+    public AudioSource MetalHit;
 
     // Start is called before the first frame update
     void Start()
@@ -31,5 +32,14 @@ public class PlayerContainer : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
+
+   }
+
+   void OnCollisionEnter(Collision other)
+   {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            MetalHit.Play();
+        }
    }
 }

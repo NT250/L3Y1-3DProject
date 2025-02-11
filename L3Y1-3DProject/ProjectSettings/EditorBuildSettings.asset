@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Collectable.unity
     guid: 83a403ba9a2e5b449b1db5a692aa7338
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 1cf4b47a26f5d6c429c6ce00ea8bfaee
   m_configObjects: {}

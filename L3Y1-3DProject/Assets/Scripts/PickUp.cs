@@ -6,6 +6,8 @@ public class PickUp : MonoBehaviour
 {
     public GameObject pickupPoint;
     public GameObject lastPickup;
+    public AudioSource pick92276;
+    public AudioSource explosionSoundEffect2;
 
     bool inRange;
 
@@ -25,6 +27,7 @@ public class PickUp : MonoBehaviour
                 lastPickup.transform.position = pickupPoint.transform.position;
                 lastPickup.transform.parent = pickupPoint.transform;
                 lastPickup.transform.GetComponent<Rigidbody>().isKinematic = true;
+                pick92276.Play();
             }
         }
         else
@@ -37,6 +40,7 @@ public class PickUp : MonoBehaviour
                     lastPickup.transform.GetComponent<Rigidbody>().isKinematic = false;
                     lastPickup.transform.GetComponent<Rigidbody>().AddForce(pickupPoint.transform.forward * 50f, ForceMode.Impulse);
                     lastPickup = null;
+                    explosionSoundEffect2.Play();
                 }
             }
         }
