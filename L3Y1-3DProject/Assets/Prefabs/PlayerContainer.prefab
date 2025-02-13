@@ -6200,7 +6200,7 @@ Transform:
   m_GameObject: {fileID: 4683117831645466816}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2754488, y: 0.000000007851175, z: -0.0000000022496218, w: 0.96131575}
-  m_LocalPosition: {x: 0, y: 2.3095703, z: -3.6999998}
+  m_LocalPosition: {x: -0.00000035762787, y: 2.3095703, z: -3.6999998}
   m_LocalScale: {x: 0.2, y: 0.19999999, z: 0.19999999}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6216,8 +6216,8 @@ Camera:
   m_GameObject: {fileID: 4683117831645466816}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.64705884, g: 0.8939105, b: 0.94509804, a: 1}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.88167405, g: 0.9056604, b: 0.51690996, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -11536,12 +11536,12 @@ PrefabInstance:
     - target: {fileID: 751599471261093534, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     - target: {fileID: 1306958241359648377, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     - target: {fileID: 2891502220186784325, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
@@ -11601,7 +11601,7 @@ PrefabInstance:
     - target: {fileID: 5839149244001793777, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     - target: {fileID: 5904295575690475683, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
@@ -11611,22 +11611,22 @@ PrefabInstance:
     - target: {fileID: 6316268322185832621, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     - target: {fileID: 6920202566513196289, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1252
+      value: 1603
       objectReference: {fileID: 0}
     - target: {fileID: 7614889345899340822, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     - target: {fileID: 8033858715596228145, guid: 288ac4752b0dff741805e05a1e40b404,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 504
+      value: 855
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
